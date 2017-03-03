@@ -7,33 +7,34 @@
 #######################################
 
 AccelStepper	KEYWORD1
+MultiStepper	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-moveTo	KEYWORD2
-move	KEYWORD2
-run	KEYWORD2
-runSpeed	KEYWORD2
-setMaxSpeed	KEYWORD2
-setAcceleration	KEYWORD2
-setSpeed	KEYWORD2
-speed	KEYWORD2
-distanceToGo	KEYWORD2
-targetPosition	KEYWORD2
-currentPosition	KEYWORD2
-setCurrentPosition	KEYWORD2
+set_target	KEYWORD2
+set_target_relative	KEYWORD2
+update	KEYWORD2
+update_speed	KEYWORD2
+set_max_speed	KEYWORD2
+set_acceleration	KEYWORD2
+set_speed	KEYWORD2
+get_speed	KEYWORD2
+distance_remaining	KEYWORD2
+get_target	KEYWORD2
+get_position	KEYWORD2
+set_home	KEYWORD2
 runToPosition	KEYWORD2
-runSpeedToPosition	KEYWORD2
-runToNewPosition	KEYWORD2
+run_speed_to	KEYWORD2
+run_to	KEYWORD2
 stop	KEYWORD2
-disableOutputs	KEYWORD2
-enableOutputs	KEYWORD2
-setMinPulseWidth	KEYWORD2
-setEnablePin	KEYWORD2
-setPinsInverted	KEYWORD2
-maxSpeed	KEYWORD2
+disable_outputs	KEYWORD2
+enable_outputs	KEYWORD2
+set_min_pulse_width	KEYWORD2
+set_enable_pin	KEYWORD2
+set_pins_inverted	KEYWORD2
+get_max_speed	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
